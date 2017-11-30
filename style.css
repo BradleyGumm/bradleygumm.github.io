@@ -1,0 +1,151 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #F7F7F7;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  }
+  
+  /** Header styles **/
+  .header {
+    background-image: url(https://lh3.googleusercontent.com/o9BfQps23UOY8AmPikaug3V9s495oOQ9XhVeaG9nURhDkiz_lHa6w0thnGmpwp9fqMF7lTbzDoBAj1NNmxlg4JIf_kNkwSJSD3DcMwKqmZTmvpEuWRnDs---6pTLnvPlOeQrmdGPqOh0HkDPJHbaGE3FozHKdye5v7zYkRhvoSKfuD3wlWM-_pfB6JWQm5Z3wUcHRJfmP-uYTm1rTvDGqHZ-ukXS_MSEcM_sBqHeuiqecvih3_SykFgI6fC_U-upQ_rKdjqHXDYGN3QrqcQfZ83JVO0vB1lePX15wBfYjd3k01x7jcxhKi6NtWcY1rpiGert8-l8BgHkAykXZDV7nEwwKkav3ogLHKFIOuC1bdRk2_hzmA4yFoY1OZDHizrmu4Rw9Lzyxc2Nu8enowfTSNML86DtfMKt2yQZitGExiGhndtC9l6W1l6Eak4wBVm5HWMixXXt_iMLpJCkDKtpcZ2tVaqrSgFKKS4whwN6KZ9DbHlJkqV2IPBj-BI7q4j8Bw-th9gOo-CvP_n-j3CF4TzVAkVX1BKbBNB-G29g4qZ2VEFxo457e1TyCRih41RkyRzZJwOzdXHXbpZwo7U4_gE92saIy5B5zAYyJncRmg=s968-no);
+    height: 400px;
+    background-position: center center;
+  }
+  .header h1
+  {
+  	text-align: center;
+  	top: 70%;
+  }
+  
+  .menu {
+    margin: 40px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: #EAE0D5;
+    overflow: auto;
+    width: 75%;
+    border-radius: 4px;
+    align-self: center;
+  }
+  
+  .menu p {
+    color: #938E89;
+    text-align: center;
+    line-height: 24px;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .spectrum div {
+    font: inherit;
+    padding: 0 20px;
+    color: #FFFFFF;
+    overflow: auto;
+    opacity: 0.9;
+  }
+  
+  .spectrum p {
+    color: #FFFFFF;
+    text-align: left;
+  }
+  
+  /* Roast types */
+  .brown {
+    background-color: brown;
+  }
+  
+  .light {
+    background-color: Sienna;
+  }
+  
+  .yellow {
+    background-color: #FFE11A;
+  }
+  .italian {
+    background-color: Black;
+  }
+  
+  /* Typography */
+  h1 {
+    color: rgb(250, 248, 248);
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    line-height: 76px;
+    margin: 0;
+    position: relative;
+    text-align: right;
+    top: 80%;
+  }
+  
+  h2 {
+    color: #E4BB97;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    color: #41292C;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: .2em;
+  }
+  
+  h5 {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    line-height: .2em;
+    font-weight: 300;
+  }
+  
+  /* Page elements */
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+  }
+  
+  li {
+    border-bottom: 1px solid #E4BB97;
+    list-style: none;
+    margin: 100px 0px;
+    padding-bottom: 60px;
+  }
+  
+  p {
+    color: #444444;
+    line-height: 32px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  a {
+    color: #214E34;
+    font-family: 'Pacifico', cursive;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  footer p {
+    text-align: center;
+    font-size: small;
+}
